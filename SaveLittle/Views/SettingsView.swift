@@ -43,7 +43,7 @@ struct SettingsView: View {
                                     color: AppColors.purple,
                                     style: .compact
                                 ) {
-                                    openURL("https://google.com")
+                                    openURL("https://sites.google.com/adforcegroup.com/id-6751398366/")
                                 }
                                 
                                 SettingsButton(
@@ -52,7 +52,7 @@ struct SettingsView: View {
                                     color: AppColors.blue,
                                     style: .compact
                                 ) {
-                                    openURL("https://google.com")
+                                    openURL("https://sites.google.com/adforcegroup.com/id6751398366/")
                                 }
                             }
                             
@@ -62,7 +62,7 @@ struct SettingsView: View {
                                 color: AppColors.green,
                                 style: .wide
                             ) {
-                                openURL("https://google.com")
+                                openURL("https://forms.gle/vW2Y39aVt29L1gLa6")
                             }
                             
                             SettingsButton(
