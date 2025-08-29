@@ -10,9 +10,22 @@
 		59EC02272E4C95AB00D69072 /* SaveLittle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveLittle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		595DF76E2E62027A005792DB /* Exceptions for "SaveLittle" folder in "SaveLittle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 59EC02262E4C95AB00D69072 /* SaveLittle */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		59EC02292E4C95AB00D69072 /* SaveLittle */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				595DF76E2E62027A005792DB /* Exceptions for "SaveLittle" folder in "SaveLittle" target */,
+			);
 			path = SaveLittle;
 			sourceTree = "<group>";
 		};
@@ -250,8 +263,9 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = SaveLittle/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SaveLittle;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you take and upload photos directly within the app.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,8 +306,9 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = SaveLittle/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SaveLittle;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you take and upload photos directly within the app.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

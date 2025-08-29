@@ -5,7 +5,6 @@ struct SplashScreenView: View {
     @State private var rotationAngle: Double = 0
     @State private var scale: CGFloat = 0.5
     @State private var opacity: Double = 0
-    @Binding var showSplash: Bool
     
     var body: some View {
         ZStack {
@@ -64,12 +63,6 @@ struct SplashScreenView: View {
         }
         .onAppear {
             startAnimations()
-            
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-                withAnimation(.easeOut(duration: 0.5)) {
-                    showSplash = false
-                }
-            }
         }
     }
     
@@ -89,8 +82,4 @@ struct SplashScreenView: View {
             }
         }
     }
-}
-
-#Preview {
-    SplashScreenView(showSplash: .constant(true))
 }
