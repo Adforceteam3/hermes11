@@ -23,7 +23,7 @@ class InitMethod {
         launch = first
     }
     
-    let currentDate = "2025-03-28"
+    let currentDate = "2025-09-01"
     
     func initScreen(completion: @escaping (Bool, Bool) -> Void ) {
         let defaults = UserDefaults.standard
